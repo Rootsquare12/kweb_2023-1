@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1-1</title>
+</head>
+<body>
+    <div id="Header">
+        <h1>KWEB 설문조사</h1>
+        <img src="https://i.imgur.com/hSSFVSw.png" alt="KWEB 로고">
+        <a href="https://kwebofficial.com/">KWEB 홈페이지</a><br>
+    </div>
+    <div id="content">
+        <div class="Question-1">
+            <h2>1. 이름</h2>
+            <input type="text" name="name">
+        </div>
+        <div class="Question-2">
+            <h2>2. 학번</h2>
+            <input type="text" name="student_id">
+        </div>
+        <div class="Question-3">
+            <h2>3. 회원 레벨을 선택하세요.</h2>
+            <input type="radio" name="level" value="admin">운영자
+            <input type="radio" name="level" value="main">정회원
+            <input type="radio" name="level" value="newbie">준회원
+        </div>
+        <div class="Question-4">
+            <h2>4. 관심 분야를 선택하세요.</h2>
+            <input type="checkbox" name="field" value="frontend">프론트엔드
+            <input type="checkbox" name="field" value="backend">백엔드
+            <input type="checkbox" name="field" value="crawl">웹 크롤링
+            <input type="checkbox" name="field" value="security">정보보호
+            <input type="checkbox" name="field" value="etc">기타
+            <input type="text" name="field_etc">
+        </div>
+        <div class="Question-5">
+            <h2>5. 지난 수업에 대한 피드백을 작성해 주세요.</h2>
+            <input type="textarea" name="feedback">
+        </div>
+    </div>
+    <div id="submit">
+        <button type="submit">답안 제출하기</button>
+    </div>
+</body>
+</html>
